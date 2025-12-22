@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 ",
+      "setup": "",
+      "run": "./divider 22 7 20",
+      "input": "",
+      "output": "3,14285714285714285714",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./divider 1 128 10",
+      "input": "",
+      "output": "0,0078125000",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./divider 0 128 10",
+      "input": "",
+      "output": "0,0000000000",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./divider -333 106 32",
+      "input": "",
+      "output": "-3,14150943396226415094339622641509",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./divider 333 -106 32",
+      "input": "",
+      "output": "-3,14150943396226415094339622641509",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./divider -333 -106 32",
+      "input": "",
+      "output": "3,14150943396226415094339622641509",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./divider 19601 13860 64",
+      "input": "",
+      "output": "1,4142135642135642135642135642135642135642135642135642135642135642",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./divider 2889 1292 100",
+      "input": "",
+      "output": "2,2360681114551083591331269349845201238390092879256965944272445820433436532507739938080495356037151702",
+      "comparison": "Exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
